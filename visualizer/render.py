@@ -25,7 +25,7 @@ def display_text(msg, pos):
 
 # Load one of the datasets
 if len(sys.argv) < 2:
-    print "Usage: render.py <path/to/dataset_xx.json>"
+    print("Usage: render.py <path/to/dataset_xx.json>")
     sys.exit(1)
 
 dataset = pd.read_json(sys.argv[1])
